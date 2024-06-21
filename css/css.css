@@ -1,0 +1,371 @@
+body{   
+    background-color: #0c0c0c;
+
+}
+*{
+    margin: 0px;
+}
+
+
+
+
+
+
+/* Header */
+.parent1{
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto 1fr auto auto auto auto;
+padding: 10px 7%;
+}
+.logo{
+    width: 100px;
+}
+
+.tital{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #d3d3d3;
+    margin-left: 8px;
+    font-size: 20px;
+    text-shadow: 0px 0px 2px #bcbcbc;
+}
+.nav1,
+.nav2,
+.nav3{
+    font-size: 20px;
+    color: #b5b5b5;
+font-family: Arial, Helvetica, sans-serif;
+margin: 10px;
+}
+.nav1:hover,.nav2:hover,.nav3:hover{
+    color: #ffffff;
+}
+
+.img6{
+    width: 50px;
+    left: 400px;
+    margin: 10px;
+}
+.line{
+    display: inline-block;
+    width: 100%;
+    height: .5px;
+    background-color: #5a5a5a;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Home */
+.home{
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.Home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.logo_two{
+    width: 420px;
+}
+.smaltital{
+    margin-bottom: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #d3d3d3;
+    font-size: 65px;
+    text-shadow: 0px 0px 2px #bcbcbc; 
+}
+.descreption{
+    color: #b5b5b5;
+    font-size: 22px;
+    margin-bottom: 30px;
+
+}
+
+.checks1{
+    color: #ffffff;
+    font-size:22px ;
+    display: inline-block;
+    text-align: center;
+padding: 10px 15px;
+background-color: #5a5a5a;
+border-radius: 40px;
+box-shadow: 0px 0px 3px 1px white ;
+
+}
+.checks1:hover{
+    background-color: #e1e1e1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* New Drons */
+.tital2{
+    font-family: "Felix Titling Regular";
+    src: url(".../fonts/felix-titling-regular_1dyC9/Felix Titling Regular");
+    color: #d3d3d3;
+    font-size: 35px;
+    text-shadow: 0px 0px 2px #bcbcbc;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 45px 0px 6px ;
+}
+.groub1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   background-image: linear-gradient(to top,#0c0c0c 13%,#6b6b6b 13%,#6b6b6b 40%,#0c0c0c 40%);
+}
+
+.titalside{
+    font-family: "Felix Titling Regular";
+    src: url(".../fonts/felix-titling-regular_1dyC9/Felix Titling Regular");
+    color: #d3d3d3;
+   text-align:center;
+    text-shadow: 0px 0px 2px #bcbcbc;
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+
+
+.parent2{
+    display: flex;
+    justify-content: space-around;  
+    align-items: center;
+    margin-top: 27px;
+    flex-wrap: wrap;
+
+
+}
+
+
+
+.e11{
+    position: relative;
+    margin: 20px;
+    margin-top: 50px;
+    padding-bottom: 18px;
+    padding-top: 11px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-end ;
+    height: 200px;
+    width: 180px;
+    background-color: #0c0c0c;
+    border-color: #b5b5b5;
+    border-style: solid ;
+    border-radius: 55px;
+    border-width: .1px;
+    box-shadow: 0px 3px 3px rgb(184, 184, 184);
+}
+.e11:hover{
+
+    transform: scale(1.2);
+}
+.it{
+    width: 230px;
+    position: absolute;
+    top: -80px;
+
+}
+.Ss1{
+    color: #b5b5b5;
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 0px;
+margin: 16px;
+}
+a{
+text-decoration:  none;
+
+}
+.checks{
+    color: #ffffff;
+    text-align: center;
+padding: 8px;
+    font-size:13px;
+background-color: #5a5a5a;
+border-radius: 40px;
+box-shadow: 0px 0px 3px 1px white ;
+}
+.checks:hover{
+    background-color: #e1e1e1;
+}
+.b2{
+    font-size: 13px;
+    color: #ffffff;
+font-family: Arial, Helvetica, sans-serif;
+}
+.b{
+    font-size: 20px;
+    color: #bcbcbc;
+}
+
+
+
+
+
+/* Best Seller Drones */
+.groub2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.line2{
+    display: inline-block;
+    width: 300px;
+    height: 1px;
+margin-bottom: 5px;
+    background-color: #6b6b6b;
+    
+}
+.titalside2{
+    font-family: "Felix Titling Regular";
+    src: url(".../fonts/felix-titling-regular_1dyC9/Felix Titling Regular");
+    color: #d3d3d3;
+    margin-top: 20px;
+  margin-bottom: 5px;
+  font-size: 25px;
+    text-shadow: 0px 0px 2px #bcbcbc;
+}
+.parent3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.e1{
+    margin-top: 10px;
+    position: relative;
+}
+.it2{
+    width: 390px;
+    padding:2px
+}
+.S{
+    margin:  30px;
+    position: absolute;
+    top:0px;
+    left:28%;
+    font-family: "elephant italic";
+    src: url(".../fonts/felix-titling-regular_1dyC9/Felix Titling Regular");
+    font-size: 30px;
+}
+.S1{
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 0px;
+    position: absolute;
+    top:20%;
+    /* left:5px; */
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin: 20px;
+}
+.check{
+    color: #282828;
+    font-size:15px ;
+    text-align: center;
+padding: 8px 11px;
+background-color: #e7e7e7;
+border-radius: 40px;
+box-shadow: 0px 0px 3px 1px #949494 ;
+text-decoration: none;
+
+
+     position: absolute;
+    top:40%;
+    left:40%;
+
+
+}
+
+.b3{
+    font-size: 15px;
+    color: #0c0c0c;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+.footer{
+    width: 100%;
+    background-color:#6b6b6b ;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.footertital{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #d3d3d3;
+    margin: 10px;
+    margin-left: 8px;
+    font-size: 25px;
+    text-shadow: 0px 0px 2px #bcbcbc;
+}
+.lin{
+    display: inline-block;
+    width: 100%;
+    height: .5px;
+    background-color: #0c0c0c;
+    margin: 0px;
+}
+.contact{
+    margin: 5px;
+    font-size: 20px;
+}
+.lastimage{
+    width: 180px;
+    margin-bottom: 3px;
+}
+.final{
+   
+    font-size: 10px;
+  
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin: 5px;
+}
+.navFooter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
